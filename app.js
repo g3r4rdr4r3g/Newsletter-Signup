@@ -39,7 +39,7 @@ app.post("/", function (req, res){
 
   const options = {
     method: "POST",
-    auth: "gac:d2c76cce6e10739f050a1038a574bd63-us17"
+    auth: "gac:(Enter API Key)"
   };
 
   const request = https.request(url, options, function (response){
